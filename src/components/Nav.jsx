@@ -5,10 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navb() {
   return (
       <>
-        <Navbar fixed='top' bg="transparent" variant="dark" className='d-flex justify-content-between'>
+        <Navbar fixed='top' bg="transparent" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Atayev</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="me-auto text-white">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">About</Nav.Link>
             <Nav.Link href="#pricing">Contact</Nav.Link>
