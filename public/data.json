@@ -1,9 +1,28 @@
 {
+ "projects": [
+    {   "name":"House Marketplace App",
+        "info":"House Marketplace app using ReactJS/Firebase9/Bootstrap/Leaflet(for maps)",
+        "photo": ["https://i.ibb.co/94ZNFWG/logo-transparent.png"],
+        "link":["housemarketplace-seven.vercel.app"]
+    },
+    {   "name":"AmazonClone",
+        "info":"Amazon clone using Firebase 9/ExpressJS, ReactJS/Redux toolkit/StripeJs",
+        "photo": ["https://i.ibb.co/fnnW4GX/logo-transparent.png"],
+        "link":["https://clone-d7aeb.web.app/ "]
+    },
+    {   "name":"BrandsColorClone",
+        "info":"BrandsColor.net clone using ReactJS/Scss. (Own version with some different styles)",
+        "photo": ["https://i.ibb.co/hsHJDPb/logo-transparent.png"],
+        "link":["https://brandscolorsclone.netlify.app/ "]
+    }
     
-    "name":"name",
-    "info":"info",
-    "photo": ["https://ichef.bbci.co.uk/news/976/cpsprodpb/118A0/production/_118604817__116721094_mustang.jpg","https://cdn.motor1.com/images/mgl/6ZZp9r/s1/most-expensive-cars-in-the-world-2022.jpg"],
-    "link":["https://link.com"]
-    
+ ],
+    "contact": [
+        {
+            "address":"90 Mehmandarov. Baku,Azerbaijan",
+            "email" : "atayev25@gmail.com",
+            "phone":"+994559405203"
+        }
+    ]  
     
 }

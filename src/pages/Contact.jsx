@@ -11,7 +11,6 @@ function Contact() {
       <div className='contact' id='contact'>
           <div className='container text-center mb-sm-5 py-5'>
               <h1>Contact Us.</h1>
-
               <div className='contactInfo d-md-flex justify-content-between align-items-center'>
                   <div className='col-md-4 my-5'>
                       <div className='item'>
@@ -19,7 +18,7 @@ function Contact() {
                             <i className="fa fa-location-arrow fa-lg"></i>
                           </span>
                           <h6 className='customColor3'>Address</h6>
-                          <p className='customColor3'>90 Mehmandarov. Baku,Azerbaijan</p>
+                          <p className='customColor3'></p>
                       </div>
                   </div>
                   <div className='col-md-4 my-sm-5'>
