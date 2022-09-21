@@ -33,6 +33,9 @@ function Navb() {
             <AnchorLink href='#about'>
             <Nav.Link className='text-white'>About</Nav.Link>
             </AnchorLink>
+            <AnchorLink href='#portfolio'>
+            <Nav.Link className='text-white'>Portfolio</Nav.Link>
+            </AnchorLink>
             <AnchorLink href='#contact'>
             <Nav.Link className='text-white'>Contact</Nav.Link>
             </AnchorLink>
