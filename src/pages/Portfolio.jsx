@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from 'react'
-import CardItem from '../components/Card'
+import CardItem from '../components/CardItem'
 
 function Portfolio() {
   const [data, setData] = useState()

@@ -20,6 +20,7 @@ body {
 .bg-main {
   background: #1c1c1c;
   overflow: hidden;
+  opacity: 50%;
 }
 .typeWriterP {
   font-weight: 300;
@@ -43,9 +44,6 @@ body {
 }
 .buttonGroup {
   margin-bottom: 20px;
-}
-.skills {
-   margin-left: 30px;
 }
 .list {
   width: max-content;
@@ -83,6 +81,9 @@ body {
 .contact {
   width: 100vw;
   background: #cacacad8;
+}
+.contactForm {
+  margin-right:10px;
 }
 .icon {
   font-size: 25px;

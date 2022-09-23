@@ -19,9 +19,49 @@
  ],
     "contact": [
         {
-            "address":"90 Mehmandarov. Baku,Azerbaijan",
-            "email" : "atayev25@gmail.com",
-            "phone":"+994559405203"
+            "fieldName":"Address",
+            "valueName":"90,Semedbey Mehmandarov,Baku,Azerbaijan",
+            "fieldIcon":"fa fa-location-arrow fa-lg"
+        },
+        {
+            "fieldName":"Email",
+            "valueName":"atayev25@gmail.com",
+            "fieldIcon":"fa fa-envelope fa-lg"
+        },
+        {
+            "fieldName":"Phone",
+            "valueName":"+994 55 940-52-03",
+            "fieldIcon":"fa fa-phone fa-lg"
+        }
+    ],
+    "skill": [
+        {
+            "skillName":"HTML",
+            "skillIcon":"fa-brands fa-html5 fa-lg"
+        },
+        {
+            "skillName":"CSS/SCSS/Bootstrap/TailwindCSS",
+            "skillIcon":"fa-brands fa-css3-alt fa-lg"
+        },
+        {
+            "skillName":"JavaScript/jQuery/AJAX",
+            "skillIcon":"fa-brands fa-js fa-lg"
+        },
+        {
+            "skillName":"ReactJS",
+            "skillIcon":"fa-brands fa-react fa-lg"
+        },
+        {
+            "skillName":"SQL/MariaDB/PostgreSQL",
+            "skillIcon":"fa-solid fa-database fa-lg"
+        },
+        {
+            "skillName":"Firebase 9",
+            "skillIcon":"fa-brands fa-google fa-lg"
+        },
+        {
+            "skillName":"Git/Github",
+            "skillIcon":"fa-brands fa-github fa-lg"
         }
     ]  
     

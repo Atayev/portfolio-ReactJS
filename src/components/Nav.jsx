@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react';
 function Navb() {
   const [navbar,setNavbar] = useState(false)
   const changeBackground = () => {
-    // console.log(window.scrollY)
+    console.log(window.scrollY)
     if (window.scrollY >= 650) {
       setNavbar(true)
     } else {
@@ -21,12 +21,14 @@ function Navb() {
  
   return (
       <>
-        <Navbar fixed='top'variant="dark" className={navbar ? 'bg-main' : 'bg-transparent'}>
+        <Navbar fixed='top' expand='sm' variant="dark" className={navbar ? 'bg-main' : 'bg-transparent'}>
         <Container>
-        <AnchorLink href='#home' style={{textDecoration:'none'}}>
-            <Navbar.Brand className='fs-3'>Atayev</Navbar.Brand>
-        </AnchorLink>
-          <Nav className="me-auto text-white">
+            <AnchorLink href='#home' style={{textDecoration:'none'}}>
+                <Navbar.Brand className='fs-3'>Atayev</Navbar.Brand>
+            </AnchorLink>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+            <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto text-white">
             <AnchorLink href='#home'>
               <Nav.Link className='text-white'>Home</Nav.Link>
             </AnchorLink>
@@ -39,7 +41,8 @@ function Navb() {
             <AnchorLink href='#contact'>
             <Nav.Link className='text-white'>Contact</Nav.Link>
             </AnchorLink>
-          </Nav>
+            </Nav>
+            </Navbar.Collapse>
         </Container>
       </Navbar>
         </>

@@ -9,7 +9,7 @@ function CardItem({name,info,photo,link}) {
                     <Card.Text className='text-justify fw-medium'>
                         {info}
                     </Card.Text>
-                    <a className='button buttonDark' href={link} target='_blank' rel='noreferrer'>Go somewhere</a>
+                    <a className='button buttonDark' href={link} target='_blank' rel='noreferrer'>Live Preview</a>
                     </Card.Body>
             </Card>
         )
