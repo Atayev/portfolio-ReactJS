@@ -35,7 +35,7 @@ function About() {
               
           </div>
           <div className='text-center buttonGroup mt-sm-5'>
-              <a href="/" target='_blank' rel='noreferer'>
+              <a href="https://drive.google.com/file/d/1-vzfhCPiM6ZKKjPloFhUeUrj8al6yPFd/view" target='_blank' rel='noreferrer'>
                   <span className='button buttonDark'>Download CV</span>
               </a>
               <AnchorLink href="#contact">
