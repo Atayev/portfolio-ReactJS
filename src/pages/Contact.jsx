@@ -39,7 +39,7 @@ function Contact() {
   return (
       <div className='contact' id='contact'>
           <div className='container text-center mb-sm-5 py-5'>
-              <h1>Contact Us.</h1>
+              <h1>Contact Me.</h1>
               
               <div className='contactInfo d-md-flex justify-content-between align-items-center'>
                   {
