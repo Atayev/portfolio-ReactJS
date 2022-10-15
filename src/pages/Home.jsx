@@ -35,7 +35,8 @@ function Home() {
               <i className="fa-brands fa-github text-white fa-xl  m-3"></i>
           </a>
           <a href='https://www.linkedin.com/in/atayevibrahim/' target='_blank' rel="noreferrer">
-              <i className="fa-brands fa-linkedin text-white fa-xl"></i>
+            <i className="fa-brands fa-linkedin text-white fa-xl"></i>
+            
           </a>
         </div>
       </div>    

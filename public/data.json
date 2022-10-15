@@ -52,6 +52,10 @@
             "skillIcon":"fa-brands fa-react fa-lg"
         },
         {
+            "skillName":"Redux",
+            "skillIcon":"fa-brands fa-react fa-lg"
+        },
+        {
             "skillName":"SQL/MariaDB/PostgreSQL",
             "skillIcon":"fa-solid fa-database fa-lg"
         },

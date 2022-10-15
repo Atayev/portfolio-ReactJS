@@ -114,3 +114,6 @@ textarea {
   cursor: pointer;
   width: 100vw;
 }
+.hover:hover {
+  color: blueviolet;
+}

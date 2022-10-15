@@ -12,14 +12,15 @@ function Portfolio() {
       }
       fetchData()
   }, [])
-  
+  console.log(data)
   return (
       <div className='portfolio' id='portfolio'>
         <div className='container pt-4'>
         <h1 className='text-center py-sm-5'>My Portfolio.</h1>
         <div className='d-flex justify-content-center flex-wrap'>
             {
-              data?.projects?.map((pro) => (
+            data?.projects?.map((pro) => (
+                
                 <CardItem
                   name={pro?.name }
                   info={pro?.info}

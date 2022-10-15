@@ -21,7 +21,7 @@ function Navb() {
  
   return (
       <>
-        <Navbar fixed='top' expand='sm' variant="dark" className={navbar ? 'bg-main' : 'bg-transparent'}>
+        <Navbar fixed='top' expand='sm' variant="dark" className={navbar ? 'bg-main pt-3' : 'bg-transparent  pt-3'}>
         <Container>
             <AnchorLink href='#home' style={{textDecoration:'none'}}>
                 <Navbar.Brand className='fs-3'>Atayev</Navbar.Brand>
@@ -29,17 +29,17 @@ function Navb() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto text-white">
-            <AnchorLink href='#home'>
-              <Nav.Link className='text-white'>Home</Nav.Link>
+            <AnchorLink href='#home' style={{textDecoration:'none'}}>
+              <Nav.Link className='text-white' >Home</Nav.Link>
             </AnchorLink>
-            <AnchorLink href='#about'>
-            <Nav.Link className='text-white'>About</Nav.Link>
+            <AnchorLink href='#about' style={{textDecoration:'none'}}>
+            <Nav.Link className='text-white' >About</Nav.Link>
             </AnchorLink>
-            <AnchorLink href='#portfolio'>
-            <Nav.Link className='text-white'>Portfolio</Nav.Link>
+            <AnchorLink href='#portfolio' style={{textDecoration:'none'}}>
+            <Nav.Link className='text-white' >Portfolio</Nav.Link>
             </AnchorLink>
-            <AnchorLink href='#contact'>
-            <Nav.Link className='text-white'>Contact</Nav.Link>
+            <AnchorLink href='#contact'  style={{textDecoration:'none'}}>
+            <Nav.Link className='text-white hover'>Contact</Nav.Link>
             </AnchorLink>
             </Nav>
             </Navbar.Collapse>
