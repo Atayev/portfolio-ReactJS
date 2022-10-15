@@ -1,9 +1,9 @@
 {
  "projects": [
-    {   "name":"House Marketplace App",
-        "info":"House Marketplace app using ReactJS/Firebase9/Bootstrap/Leaflet(for maps)",
-        "photo": ["https://i.ibb.co/94ZNFWG/logo-transparent.png"],
-        "link":["https://housemarketplace-seven.vercel.app"]
+    {   "name":"Furns E-commerce App",
+        "info":"Furns furniture sellshop app using ReactJS/Redux-Redux Toolkit/Bootstrap/",
+        "photo": ["https://i.ibb.co/HVQDqjF/logo.png"],
+        "link":["https://ecommercereactjs33.netlify.app/"]
     },
     {   "name":"AmazonClone",
         "info":"Amazon clone using Firebase 9/ExpressJS, ReactJS/Redux toolkit/StripeJs",
@@ -14,6 +14,11 @@
         "info":"BrandsColor.net clone using ReactJS/Scss. (Own version with some different styles)",
         "photo": ["https://i.ibb.co/hsHJDPb/logo-transparent.png"],
         "link":["https://brandscolorsclone.netlify.app/ "]
+    },
+    {   "name":"House Marketplace App",
+        "info":"House Marketplace app using ReactJS/Firebase9/Bootstrap/Leaflet(for maps)",
+        "photo": ["https://i.ibb.co/94ZNFWG/logo-transparent.png"],
+        "link":["https://housemarketplace-seven.vercel.app"]
     }
     
  ],
